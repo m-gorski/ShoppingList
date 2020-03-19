@@ -1,6 +1,0 @@
-CREATE TABLE `Users` (
-  `ID` int(5) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `Username` varchar(20) NOT NULL,
-  `Email` varchar(20) NOT NULL,
-  `Password` varchar(20) NOT NULL
-) ;
