@@ -31,6 +31,7 @@ input {
     border: 3px solid gray;
     color: gray;
     font-family: Open Sans;
+    overflow-wrap: break-word;
 }
 
 input:focus {
@@ -109,19 +110,21 @@ button {
 .elements-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 2px;
 }
 
 /*pojedynczy element listy*/
 .elements-list li {
     background: #f7f7f7;
-    height: 50px;
+    /*height: 50px;*/
+    padding-left: 10px;
     line-height: 50px;
     cursor: pointer;
     font-size: 20px;
     font-family: Open Sans;
     margin: 0 auto;
     max-width: 400px;
+    word-wrap: break-word;
     position: relative;
 }
 
@@ -141,6 +144,7 @@ button {
     color: dimgrey;
     text-decoration: line-through gray;
     text-decoration: -webkit-line-through gray;
+    -webkit-text-decoration-line: line-through;
     opacity: 1.0;
     background: yellow;
 }
