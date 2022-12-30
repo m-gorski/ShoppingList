@@ -1,7 +1,7 @@
 body {
  min-height: 100%;
  font-family: "Mochiy Pop One", sans-serif;
- background: #e7e7e7;
+ background: #E1EBDF;
  margin-top: -5px;
  margin-bottom: -5px;
 }
@@ -129,7 +129,7 @@ button:hover {
 
 /*pojedynczy element listy*/
 .boxList li {
- background: #f7f7f7;
+ background: #ffffff;
  height: 50px;
  line-height: 50px;
  cursor: pointer;
@@ -143,7 +143,7 @@ button:hover {
 
 /*wybranie co drugiego elementu*/
 .boxList li:nth-child(2n) {
- background: #edf1f5;
+ background: #f0f5ef;
 }
 
 .boxList li:hover span {
@@ -158,6 +158,7 @@ button:hover {
  -webkit-text-decoration-line: line-through;
  text-decoration-line: line-through;
  opacity: 0.6;
+ background: red;
 }
 
 .fa-pencil-alt {
