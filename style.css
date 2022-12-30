@@ -155,8 +155,8 @@ button:hover {
 /*przekreślamy element po kliknięciu, oznacza wykonanie danego zakupu, zadania*/
 .checked {
  color: gray;
- text-decoration: line-through gray !important;
- text-decoration: -webkit-line-through gray !important;
+ -webkit-text-decoration-line: line-through;
+ text-decoration-line: line-through;
  opacity: 0.6;
 }
 
