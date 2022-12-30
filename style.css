@@ -154,10 +154,10 @@ button:hover {
 
 /*przekreślamy element po kliknięciu, oznacza wykonanie danego zakupu, zadania*/
 .checked {
- color: dimgrey;
- text-decoration: line-through gray;
- text-decoration: -webkit-line-through #dddddd;
- opacity: 0.7;
+ color: gray;
+ text-decoration: line-through gray !important;
+ text-decoration: -webkit-line-through gray !important;
+ opacity: 0.6;
 }
 
 .fa-pencil-alt {
