@@ -36,7 +36,7 @@ input.addEventListener("keypress", function (keyPressed) {
 		var li = document.createElement("li");
 		var spanElement = document.createElement("span");
 		var icon = document.createElement("i");
-		icon.className = "icona";
+		icon.className = "icon-close";
 
 		//jeżeli input jest pusty lub spacja to wyswietlam alert
 		if (input.value == '' || input.value == ' ' || input.value == '  ' || input.value == '   ' || input.value == '    ') {
@@ -49,7 +49,7 @@ input.addEventListener("keypress", function (keyPressed) {
 			var newElement = document.getElementById("input").value;
 			icon.classList.add('fas', 'fa-times');
 			spanElement.append(icon);
-			spanElement.className = "one";
+			spanElement.className = "box-icon";
 
 			ul.appendChild(li).append(spanElement, newElement);
 			ul.insertBefore(li, ul.childNodes[0]); //dodanie kolejnego elementu jako pierwsze dziecko
@@ -90,7 +90,7 @@ function addElement() {
 	var li = document.createElement("li");
 	var spanElement = document.createElement("span");
 	var icon = document.createElement("i");
-	icon.className = "icona";
+	icon.className = "icon-close";
 
 	//jeżeli input jest pusty lub spacja to wyswietlam alert
 	if (input.value == '' || input.value == ' ' || input.value == '  ' || input.value == '   ' || input.value == '    ') {
@@ -103,7 +103,7 @@ function addElement() {
 		var newElement = document.getElementById("input").value;
 		icon.classList.add('fas', 'fa-times');
 		spanElement.append(icon);
-		spanElement.className = "one";
+		spanElement.className = "box-icon";
 
 		ul.appendChild(li).append(spanElement, newElement);
 		ul.insertBefore(li, ul.childNodes[0]); //dodanie kolejnego elementu jako pierwsze dziecko
