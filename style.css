@@ -152,9 +152,8 @@ body {
   .checked {
 	color: dimgrey;
 	text-decoration: line-through gray;
-	text-decoration: -webkit-line-through gray;
+	-webkit-text-decoration: line-through gray;
 	opacity: 1;
-	background: yellow;
   }
   
   .fa-pencil-alt {
